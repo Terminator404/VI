@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Mcode</title>
+    <meta name="renderer" content="webkit">
+    <!-- Mcode自适应辅助代码，不用可删除，见：http://code.wiredmed.com/show.php?id=19&url=http://code.wiredmed.com/code/common/base/2016-04-08/19.html -->
+    <script>(function(){function a(){return/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)?!0:/(Android)/i.test(navigator.userAgent)?!0:!1}var d=document.getElementsByTagName("html")[0];var e;if(a()){window.isMobile=1;e="MC"}else{window.isMobile=0;e="PC"}d.className=d.className?d.className+" "+e:e;var b=d.className;function c(f){var h="";var g=document.documentElement.clientWidth;1600>g&&(h+=" lt1600");1400>g&&(h+=" lt1400");1200>g&&(h+=" lt1200");1000>g&&(h+=" lt1000");960>g&&(h+=" lt960");640>g&&(h+=" lt640");500>g&&(h+=" lt500");400>g&&(h+=" lt400");1600<g&&(h+=" gt1600");1400<g&&(h+=" gt1400");1200<g&&(h+=" gt1200");1000<g&&(h+=" gt1000");960<g&&(h+=" gt960");640<g&&(h+=" gt640");500<g&&(h+=" gt500");400<g&&(h+=" gt400");f.className=b+h}c(d);window.onresize=function(f){c(d)}})();</script>
+    <!--让IE9以下浏览器支持html5标签 -->
+    <!--[if lt IE 9]>
+    <script> (function(){if(!/*@cc_on!@*/0)return;var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','),i=e.length;while(i--){document.createElement(e[i])}})() </script>
+    <![endif]-->
+    <!-- Mcode基础及扩展样式集合，正式使用应下载到本地 -->
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/extend.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery1.42.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<button class="btn f-btn pc-hide menu-btn">三</button>
+<div class="mj-mcmenu pc-hide">
+    <button class="mj-mcmenu-close">X</button>
+    <div class="mj-mcmenu-box">
+        <div class="mj-mcmenu-body">
+            <ul class="mj-mcmenu-ul">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">专业团队</a></li>
+                <li><a href="#">业务领域</a></li>
+                <li><a href="#">业界动态</a></li>
+                <li><a href="#">学术研究</a></li>
+                <li><a href="#">工作机会</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    $('.btn').add('.mj-mcmenu-close').click(function(){
+        $('.mj-mcmenu').toggleClass('on');
+    });
+    $('.mj-mcmenu-bd .mj-mcmenu-title').click(function(){
+        $(this).next().toggle('fast')
+    });
+</script>
+<header>
+    <div class="w-main g-mw f-bc f-cb">
+        <a href="#"><div class="logo g-mw80" style="background-image: url(img/logo.jpg) "></div></a>
+        <div class="yj-language-box g-mw35">
+            <a class="yj-language " href="#">中文</a>
+            <a class="yj-language yj-language-bd" href="#">English</a>
+            <a class="yj-language" href="#">日本</a>
+        </div>
+        <div class="yj-search g-mw65">
+            <input  class="yj-search-input" type="text"/><input type="button" value="搜索"  class="f-btn yj-search-btn"/>
+        </div>
+    </div>
+</header>
+<div class="yj-nav mc-hide">
+    <div class="w-main g-mw f-bc f-cb">
+        <a class="yj-nav-column" href="#">首页</a>
+        <a class="yj-nav-column" href="#">关于我们</a>
+        <a class="yj-nav-column" href="#">专业团队</a>
+        <a class="yj-nav-column" href="#">业务领域</a>
+        <a class="yj-nav-column" href="#">业界动态</a>
+        <a class="yj-nav-column" href="#">学术研究</a>
+        <a class="yj-nav-column" href="#">工作机会</a>
+        <a class="yj-nav-column" href="#">联系我们</a>
+    </div>
+</div>
+<div class="yj-pic-display mc-hide" style="background:  url(http://zp.cndesign.com/UploadImage/200803/14/Image/200831416402321542.jpg) center center no-repeat; "></div>
+<div class="yj-content content-white">
+    <div class="w-main g-mw f-bc f-cb ">
+        <div class="f-p10">
+            <div class="g-w30 mc-hide g-fl">
+                <div class="f-m10 f-p10">
+                    <div class="mj-class-nav on">分类页面</div>
+                    <a href="#" class="mj-class-nav">教育培训</a>
+                    <a href="#" class="mj-class-nav">学历与考证</a>
+                    <a href="#" class="mj-class-nav">青年研究</a>
+                </div>
+            </div>
+            <div class="g-w70 g-mw g-fl">
+                <div class="mj-classList-title f-pr f-mt5">
+                    <h2 class="mj-classList-title-h2">新闻资讯<span class="mj-classList-title-p">LIST</span></h2>
+                    <div class="f-pa f-tr mj-classList-title-right">
+                        <a href="javascript:history.go(-1);" class="f-btn">返回</a>
+                    </div>
+                </div>
+                <div class="mj-classList-list">
+                    <ul>
+                        <li class="mj-classList-list-li">
+                            <a href="#">综述:中国游客赴泰安全问题面面观</a>
+                            <p class="mj-classList-list-info">
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe619;</i>发布时间：2012-09-15</span>
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe61d;</i>信息来源：网络</span>
+                            </p>
+                            <p class="mj-classList-list-p">名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资</p>
+                        </li>
+                        <li class="mj-classList-list-li">
+                            <a href="#">打车软件安全问题频曝光 如何让乘客安心打车</a>
+                            <p class="mj-classList-list-info">
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe619;</i>发布时间：2012-09-15</span>
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe61d;</i>信息来源：网络</span>
+                            </p>
+                            <p class="mj-classList-list-p">名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资</p>
+                        </li>
+                        <li class="mj-classList-list-li">
+                            <a href="#">病理资讯病理资讯</a>
+                            <p class="mj-classList-list-info">
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe619;</i>发布时间：2012-09-15</span>
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe61d;</i>信息来源：网络</span>
+                            </p>
+                            <p class="mj-classList-list-p">名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资日前在波士顿成立麻省总医院临床资</p>
+                        </li>
+                        <li class="mj-classList-list-li">
+                            <a href="#">病理资讯病理资讯</a>
+                            <p class="mj-classList-list-info">
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe619;</i>发布时间：2012-09-15</span>
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe61d;</i>信息来源：网络</span>
+                            </p>
+                            <p class="mj-classList-list-p">名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资</p>
+                        </li>
+                        <li class="mj-classList-list-li">
+                            <a href="#">病理资讯病理资讯</a>
+                            <p class="mj-classList-list-info">
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe619;</i>发布时间：2012-09-15</span>
+                                <span class="mj-classList-list-span"><i class="f-icon">&#xe61d;</i>信息来源：网络</span>
+                            </p>
+                            <p class="mj-classList-list-p">名单抡元的麻省总医院，日前在波士顿成立麻省总医院临床资日前在波士顿成立麻省总医院临床资日前在波士顿成立麻省总医院临床资</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer g-mw">
+    <div class="w-main g-mw f-bc -f-cb">
+        <div class="footer-left">
+            <a href="#">维棉邮箱</a>
+            <a href="#">内网登录</a>
+            <a href="#">法律声明</a>
+        </div>
+        <div class="footer-right">
+            <p>&copy;&nbsp;2015&nbsp;维棉知识产权网&nbsp; 版权所有&nbsp; 备案号:粤ICP备05010797号</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
